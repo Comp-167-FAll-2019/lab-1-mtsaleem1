@@ -21,8 +21,13 @@ public class Contact {
         this.phoneNumber = phoneNumber;
         this.emailAddress = emailAddress;
     }
-    
+    //My code starts   
+    public String getFirstName(){
+        return firstName;}
+    public String getLastName (){
+        return lastName;} 
+//My code ends 
     public String toString(){
-        return firstName + " " + lastName  " " + phoneNumber + " " + emailAddress;
+        return firstName + " " + lastName + " " + phoneNumber + " " + emailAddress;
     }
 }
